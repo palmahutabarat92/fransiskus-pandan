@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman Kelulusan SMA Swasta Santu Fransiskus Pandan Tahun Ajaran 2024/2025</title>
+    <meta name="description" content="Pengumuman resmi kelulusan siswa/i Sistem Online di SMA Swasta Santu Fransiskus Pandan Tahun Ajaran 2024/2025. Untuk Cek status kelulusan Anda menggunakan NISN anda.">
+    <meta name="keywords" content="cek nisn, pengumuman kelulusan, SMA Santu Fransiskus Pandan, kelulusan 2025, cek kelulusan, fransiskus pandan, sma katolik pandan, sma katolik tapanuli tengah">
+    <meta name="robots" content="index, follow">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap');
+        
+        :root {
+            --primary-blue: #0a3d62;
+            --secondary-blue: #1e88e5;
+            --gold: #ffd700;
+            --light-gold: #fff9c4;
+            --white: #ffffff;
+            --black: #222222;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+            color: var(--white);
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            text-align: center;
+            padding: 30px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 20px;
+            background-color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+            animation: pulse 2s infinite;
+        }
+        
+        .logo img {
+            max-width: 80%;
+            max-height: 80%;
+        }
+        
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(to right, var(--gold), var(--white));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        
+        /* Sambutan Section */
+        .sambutan {
+            background: rgba(10, 61, 98, 0.8);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--gold);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .sambutan::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0) 70%);
+            animation: rotate 20s linear infinite;
+            z-index: -1;
+        }
+        
+        .sambutan h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--gold);
+            text-align: center;
+        }
+        
+        .sambutan p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .kepala-sekolah {
+            text-align: right;
+            font-style: italic;
+            margin-top: 30px;
+            font-weight: 600;
+            color: var(--gold);
+            animation: glitch 1s linear infinite;
+        }
+        
+        /* Form Cek Kelulusan */
+        .cek-kelulusan {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--gold);
+            text-align: center;
+        }
+        
+        .cek-kelulusan h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--gold);
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            text-align: left;
+        }
+        
+        .input-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border-radius: 8px;
+            border: 2px solid var(--gold);
+            background: rgba(255, 255, 255, 0.9);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .input-group input:focus {
+            outline: none;
+            box-shadow: 0 0 10px var(--gold);
+            border-color: var(--secondary-blue);
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(45deg, var(--gold), var(--light-gold));
+            color: var(--primary-blue);
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.6);
+        }
+        
+        .btn:active {
+            transform: translateY(1px);
+        }
+        
+        .btn::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+        }
+        
+        .btn:hover::after {
+            transform: translateX(100%);
+        }
+        
+        /* Hasil Kelulusan */
+        .hasil-kelulusan {
+            display: none;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            border: 2px solid var(--gold);
+            color: var(--black);
+            text-align: center;
+            animation: fadeIn 0.5s ease-out;
+        }
+        
+        .hasil-kelulusan h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--primary-blue);
+        }
+        
+        .data-siswa {
+            margin-bottom: 20px;
+            text-align: left;
+            background: rgba(10, 61, 98, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid var(--gold);
+        }
+        
+        .data-siswa p {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        
+        .status {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 8px;
+            background: linear-gradient(45deg, var(--gold), var(--light-gold));
+            color: var(--primary-blue);
+            display: inline-block;
+            animation: pulse 2s infinite;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(45deg, var(--primary-blue), var(--secondary-blue));
+            color: var(--white);
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(10, 61, 98, 0.4);
+            margin: 20px 0;
+            text-decoration: none;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(10, 61, 98, 0.6);
+            background: linear-gradient(45deg, var(--secondary-blue), var(--primary-blue));
+        }
+        
+        .back-btn {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            background: transparent;
+            color: var(--primary-blue);
+            border: 2px solid var(--primary-blue);
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background: var(--primary-blue);
+            color: var(--white);
+        }
+        
+        /* Popup Notification */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease-out;
+        }
+        
+        .popup-content {
+            background: var(--white);
+            color: var(--black);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            animation: slideDown 0.5s ease-out;
+        }
+        
+        .popup h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--primary-blue);
+        }
+        
+        .popup p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .close-popup {
+            padding: 8px 20px;
+            background: var(--primary-blue);
+            color: var(--white);
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .close-popup:hover {
+            background: var(--secondary-blue);
+        }
+        
+        /* Admin Table */
+        .admin-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            display: none;
+            animation: fadeIn 0.5s ease-out;
+        }
+        
+        .admin-table th, .admin-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .admin-table th {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            font-weight: 600;
+        }
+        
+        .admin-table tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .admin-table tr:hover {
+            background-color: rgba(255, 215, 0, 0.2);
+        }
+        
+        /* Jam Digital */
+        .jam-digital {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(10, 61, 98, 0.8);
+            padding: 10px 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            z-index: 100;
+            border: 1px solid var(--gold);
+        }
+        
+        .jam-digital:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Animations */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes glow {
+            from { text-shadow: 0 0 5px var(--gold), 0 0 10px var(--gold); }
+            to { text-shadow: 0 0 10px var(--gold), 0 0 20px var(--gold), 0 0 30px var(--gold); }
+        }
+        
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+            100% { transform: translate(0); }
+        }
+        
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        /* Kembang Api */
+        .firework {
+            position: fixed;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px 5px rgba(255, 215, 0, 0.8);
+            animation: explode 1s ease-out forwards;
+            z-index: 999;
+            pointer-events: none;
+        }
+        
+        @keyframes explode {
+            0% { transform: scale(1); opacity: 1; }
+            100% { transform: scale(20); opacity: 0; }
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .logo {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .sambutan, .cek-kelulusan, .hasil-kelulusan {
+                padding: 20px;
+            }
+            
+            .jam-digital {
+                top: 10px;
+                right: 10px;
+                font-size: 0.9rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            .btn, .download-btn {
+                padding: 10px 20px;
+                font-size: 1rem;
+            }
+            
+            .data-siswa p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Jam Digital -->
+    <div class="jam-digital">
+        <div id="hari"></div>
+        <div id="jam"></div>
+    </div>
+    
+    <div class="container">
+        <!-- Header dengan Logo -->
+        <header>
+            <div class="logo">
+                <img src="https://lh4.googleusercontent.com/kpsywGpkkAM0JbdONTCRneNF98WR8Vj-mjBvtZj-qgyT0zXfuVFlCFM9b34Y6CIIcaE015_mg3nVaAp0xfcRncmtK_gDK9e1PVF48cF9HCM_teRBf2CY8CAYRekVTAYKdg=w1280" alt="Logo SMA Swasta Santu Fransiskus Pandan">
+            </div>
+            <h1>PENGUMUMAN KELULUSAN SISWA/I SMA SWASTA SANTU FRANSISKUS PANDAN<br>TAHUN AJARAN 2024/2025</h1>
+        </header>
+        
+        <!-- Sambutan Kepala Sekolah -->
+        <section class="sambutan">
+            <h2>SAMBUTAN KEPALA SEKOLAH</h2>
+            <p>Dengan penuh syukur dan sukacita, kami umumkan bahwa seluruh siswa/i kelas XII SMA Swasta Santu Fransiskus Pandan Tahun Ajaran 2024/2025 telah dinyatakan LULUS dengan hasil yang membanggakan.</p>
+            <p>Prestasi ini merupakan buah dari kerja keras, ketekunan, dan semangat pantang menyerah yang telah ditunjukkan oleh para siswa/i selama menempuh pendidikan di sekolah ini. Kami sangat bangga dengan pencapaian ini.</p>
+            <p>Kami ucapkan terima kasih yang sebesar-besarnya kepada seluruh guru, staf, orang tua/wali siswa, dan semua pihak yang telah mendukung proses pendidikan di SMA Swasta Santu Fransiskus Pandan.</p>
+            <p>Semoga kelulusan ini menjadi awal yang baik untuk melanjutkan pendidikan ke jenjang yang lebih tinggi atau memasuki dunia kerja. Tetap semangat dan jadilah generasi yang membanggakan bagi keluarga, masyarakat, dan negara.</p>
+            <div class="kepala-sekolah">~KEPALA SEKOLAH</div>
+        </section>
+        
+        <!-- Form Cek Kelulusan -->
+        <section class="cek-kelulusan">
+            <h2>CEK STATUS KELULUSAN</h2>
+            <div class="input-group">
+                <label for="nisn">MASUKKAN NISN ANDA</label>
+                <input type="text" id="nisn" placeholder="Contoh: 0072108985">
+            </div>
+            <button class="btn" id="cekBtn">CEK KELULUSAN</button>
+        </section>
+		
+        
+        <!-- Hasil Kelulusan -->
+        <section class="hasil-kelulusan" id="hasilKelulusan">
+            <h2>HASIL KELULUSAN</h2>
+            <div class="data-siswa" id="dataSiswa">
+                <!-- Data akan diisi oleh JavaScript -->
+            </div>
+            <div class="status" id="statusKelulusan">L U L U S</div>
+            <a href="#" class="download-btn" id="downloadBtn" target="_blank">DOWNLOAD SURAT LULUS</a>
+            <button class="back-btn" id="backBtn">KEMBALI KE HALAMAN UTAMA</button>
+        </section>
+		
+		<!-- KTU sekolah -->
+        <section class="sambutan">
+            <h2>KEPALA TATA USAHA</h2>
+            <p>Untuk Mengurus Surat Keterangan Lulus Anda, Silahkan datang ke Kantor TATA USAHA SMA SWASTA SANTU FRANSISKUS PANDAN, dengan melengkapi persyaratan yang sudah diberitahukan kepada Orangtua/Wali Siswa/i SMA SWASTA SANTU FRANSISKUS PANDAN. SKL Sudah Bisa di Urus mulai Tanggal 8 Mei 2025 WIB, Silahkan datang langsung kesekolah untuk mengurus dan itu lebih bagus</p>
+            <div class="kepala-sekolah">~OP SMAS Santu Fransiskus Pandan</div>
+        </section>
+        
+        <!-- Tabel Admin -->
+        <section id="adminSection" style="display: none;">
+            <h2 style="text-align: center; color: var(--gold); margin-bottom: 20px;">DATA SELURUH SISWA/I KELAS XII</h2>
+            <table class="admin-table" id="adminTable">
+                <thead>
+                    <tr>
+                        <th>NO</th>
+                        <th>NAMA</th>
+                        <th>NIS</th>
+                        <th>NISN</th>
+                        <th>KELAS</th>
+                        <th>JURUSAN</th>
+                        <th>KETERANGAN</th>
+                    </tr>
+                </thead>
+                <tbody id="adminTableBody">
+                    <!-- Data akan diisi oleh JavaScript -->
+                </tbody>
+            </table>
+            <button class="back-btn" id="adminBackBtn" style="margin-top: 20px;">KEMBALI KE HALAMAN UTAMA</button>
+        </section>
+    </div>
+    
+    <!-- Popup Notification -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h3>PENGUMUMAN BELUM DIMULAI</h3>
+            <p>Pengumuman kelulusan akan dibuka pada tanggal 05 Mei 2025 pukul 10.00 WIB.</p>
+            <p>Harap cek kembali sesuai waktu yang telah ditentukan.</p>
+            <button class="close-popup" id="closePopup">KEMBALI KE HALAMAN UTAMA</button>
+        </div>
+    </div>
+    
+    <script>
+        // Data Siswa
+        const dataSiswa = [
+            { nama: "ALEXANDRO ZOLO ZALO ZEBUA", nis: "4276", nisn: "0072108985", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ALFONSUS PAULUS SIANIPAR", nis: "4277", nisn: "0063085378", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ANGEL REVALINA CHATERINA HUTAGALUNG", nis: "4279", nisn: "0078219728", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ANTONY LUMBAN GAOL", nis: "4283", nisn: "0061238146", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ARES MICHAEL SIMANJUNTAK", nis: "4284", nisn: "0088051223", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ARIANI HALAWA", nis: "4285", nisn: "0068982528", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "BELVA DOMINIQUE HALAWA", nis: "4290", nisn: "0074925327", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "BETUEL PURNAWAN GARI", nis: "4292", nisn: "0038638957", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "DAFID FIRMAN JAYA DAELY", nis: "4295", nisn: "0062163742", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "EBEN EZER ARITONANG", nis: "4298", nisn: "0071981043", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "EFANDI SAOLOAN NDRAHA", nis: "4299", nisn: "0072319011", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ELISABET SIBORO", nis: "4301", nisn: "0079516479", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "FRANSISKA NDRAHA", nis: "4305", nisn: "0072009981", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "HAYCAL CRISTIAN SIMAMORA", nis: "4310", nisn: "0067091734", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "INDAH RONAULI YOSEFA ZEBUA", nis: "4313", nisn: "0079643337", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "MALDANIS WILMAN JAYA ZILIWU", nis: "4322", nisn: "0075239287", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "MARCELLUS VALENTINO LUBIS", nis: "4323", nisn: "0072889740", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "MARCHEL HOTMARULI SINAGA", nis: "4324", nisn: "0073997250", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "MARIA INGGRIT PANJAITAN", nis: "4326", nisn: "0071734063", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "MOSES DAVID CHRISTIAN SITUMORANG", nis: "4332", nisn: "0083612794", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "RETNO SRI ANGGUN SITOMPUL", nis: "4341", nisn: "0079626910", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "RINDU MARITO SIMANULLANG", nis: "4344", nisn: "0066369504", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ROSWITA GULO", nis: "4346", nisn: "0077201486", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "BRIDNY PUTRI INDRI HUTAGALUNG", nis: "4442", nisn: "0073852702", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "JEREMIA CALVIN SIMAMORA", nis: "4450", nisn: "0073684125", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "BERNADINUS DARMAN NDRAHA", nis: "4529", nisn: "0064152781", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ARMY SAHEL HUTAGALUNG", nis: "4286", nisn: "0073608654", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ARNOLD PEDRO ALOYSIUS. BARUTU", nis: "4287", nisn: "0086967172", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ARYA DYKA PASARIBU", nis: "4288", nisn: "0071247710", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ARYA WEDA KARSAMAN HUTAURUK", nis: "4289", nisn: "0074680981", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ERIKA ISTIWATI SIMAMORA", nis: "4303", nisn: "0052957545", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "HERENSISKUS SIMBOLON", nis: "4312", nisn: "0076906744", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "KEWEL MADIN HUTAURUK", nis: "4316", nisn: "0082206059", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "LEONY MUTIARA VERISA SIBURIAN", nis: "4317", nisn: "0078547290", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "LESTARI HUTABARAT", nis: "4318", nisn: "0076428079", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "LILIS LIMBONG", nis: "4319", nisn: "0074850007", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "LUSIUS RISTU TATOHUGO DAELY", nis: "4320", nisn: "0072159479", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "MARIA APRILLIANI NDRAHA", nis: "4325", nisn: "0079126647", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "MURNI GULO", nis: "4333", nisn: "0053821698", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "NATALIUS ZEBUA", nis: "4334", nisn: "0041800384", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ONIEL BERKAT JAYA LASE", nis: "4336", nisn: "0068798598", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "RAI MUNDUS IRWANTO TAMBA", nis: "4340", nisn: "0079801718", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ROTUA FUJI LESTARI MARPAUNG", nis: "4347", nisn: "0074053292", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "SAMUEL SENATOR SIMAMORA", nis: "4348", nisn: "0075867251", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "SARAH LESTARI SIANIPAR", nis: "4349", nisn: "0062769360", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "SERVASIUS ERWINDAH NDRURU", nis: "4350", nisn: "0057732447", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "SONANG MANURUNG", nis: "4351", nisn: "0066743539", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "WIDODO FRANSISKUS MUNTHE", nis: "4358", nisn: "0074681096", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "WILLIAM SYAHRIL PANJAITAN", nis: "4359", nisn: "0083340096", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "TRYANA OCTAVIA SILALAHI", nis: "4364", nisn: "0061039647", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "THICKO FERDINAND SITOMPUL", nis: "4446", nisn: "0075286902", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "MARIA RIMA NATASYA TINAMBUNAN", nis: "4448", nisn: "0058123574", kelas: "XII", jurusan: "IPA", keterangan: "L U L U S" },
+            { nama: "ANGELIA JHEAN LUVIKHA HUTAGALUNG", nis: "4280", nisn: "0073377128", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "ANNE AFRI SINAGA", nis: "4281", nisn: "0075295645", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "ANTONIUS LOTO SIRI", nis: "4282", nisn: "0064161656", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "BENEDIKTA CAFLORITA NELU", nis: "4291", nisn: "0077699540", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "BRAYEN TINO PANE", nis: "4293", nisn: "0085659429", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "CANDRO JULIANTO LUBIS", nis: "4294", nisn: "0072888407", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "DES METHA KRISTIANI MENDROFA", nis: "4297", nisn: "0068291003", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "EPI PHARIA MARSEL TANJUNG", nis: "4302", nisn: "0078736737", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "ERWIN JAYA GULO", nis: "4304", nisn: "0079269783", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "GANDATUA PARULIAN LIMBONG", nis: "4306", nisn: "0071954507", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "GLEN ARIANTO SIHOTANG", nis: "4307", nisn: "0088719666", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "HAIKEL SIMANJUNTAK", nis: "4309", nisn: "0064989242", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "HERDIMAN SIMAMORA", nis: "4311", nisn: "0071862292", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "JUAN FELIX MANUEL SITOMPUL", nis: "4314", nisn: "0086528642", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "JUSTIN OBRIENS NAINGGOLAN", nis: "4315", nisn: "0071119418", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "MARIO BERNARDINUS SIMANJUNTAK", nis: "4327", nisn: "0088388867", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "MARULAM PARDOSI", nis: "4328", nisn: "0074523001", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "MAY NOVITA LIMBONG", nis: "4329", nisn: "0069024151", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "PERINGADINTA BANGUN", nis: "4337", nisn: "0061867285", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "PUTRI YOSEFA SIMATUPANG", nis: "4339", nisn: "0061960196", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "REY FHABHIAN DHIONSIUS", nis: "4342", nisn: "0061532184", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "REYHAN FEDRO BANGUN", nis: "4343", nisn: "0065111092", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "SRI LOVINDA LAOLI", nis: "4352", nisn: "0065591935", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "STEVEN SEPTIAN PANGGABEAN", nis: "4353", nisn: "0069142799", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "SYALOOM BENEDICHTA STEPHANIE HUTAPEA", nis: "4354", nisn: "0069348937", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "TOGU XAVERIUS SIAHAAN", nis: "4355", nisn: "0055627183", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "VERONIKA LINIA GEA", nis: "4356", nisn: "0077818866", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "VITERBO PAULINUS LIMBONG", nis: "4357", nisn: "0076746642", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "YOSEVA THERESIA SIHOMBING", nis: "4360", nisn: "0078163642", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "DHOLY FARON PURBA", nis: "4363", nisn: "0075845097", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "SABIN JUANDA EXCEL MANAO", nis: "4365", nisn: "0069904753", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" },
+            { nama: "YEHEZKIEL AZARYA SIHOMBING", nis: "4449", nisn: "0074706156", kelas: "XII", jurusan: "IPS", keterangan: "L U L U S" }
+        ];
+        
+        // Update Jam Digital
+        function updateJam() {
+            const now = new Date();
+            const hari = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+            const bulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+            
+            document.getElementById('hari').textContent = `${hari[now.getDay()]}, ${now.getDate()} ${bulan[now.getMonth()]} ${now.getFullYear()}`;
+            document.getElementById('jam').textContent = now.toLocaleTimeString('id-ID');
+        }
+        
+        setInterval(updateJam, 1000);
+        updateJam();
+        
+        // Cek Kelulusan
+        document.getElementById('cekBtn').addEventListener('click', function() {
+            const nisn = document.getElementById('nisn').value.trim();
+            const now = new Date();
+            const tanggalPengumuman = new Date('2025-05-05T10:00:00+07:00');
+            
+            // Cek jika input adalah ADMIN
+            if (nisn.toLowerCase() === 'admin') {
+                showAdminTable();
+                createFireworks(10);
+                return;
+            }
+            
+            // Cek waktu pengumuman
+            if (now < tanggalPengumuman) {
+                document.getElementById('popup').style.display = 'flex';
+                return;
+            }
+            
+            // Cari siswa berdasarkan NISN
+            const siswa = dataSiswa.find(s => s.nisn === nisn);
+            
+            if (siswa) {
+                document.getElementById('dataSiswa').innerHTML = `
+                    <p><strong>NAMA:</strong> ${siswa.nama}</p>
+                    <p><strong>NIS:</strong> ${siswa.nis}</p>
+                    <p><strong>NISN:</strong> ${siswa.nisn}</p>
+                    <p><strong>KELAS:</strong> ${siswa.kelas}</p>
+                    <p><strong>JURUSAN:</strong> ${siswa.jurusan}</p>
+                `;
+                
+                document.getElementById('statusKelulusan').textContent = siswa.keterangan;
+                document.getElementById('downloadBtn').href = `https://example.com/skl/${siswa.nisn}.pdf`;
+                
+                document.getElementById('hasilKelulusan').style.display = 'block';
+                document.querySelector('.cek-kelulusan').style.display = 'none';
+                
+                // Buat efek kembang api
+                createFireworks(5);
+            } else {
+                alert('NISN tidak ditemukan. Silakan cek kembali NISN Anda.');
+            }
+        });
+        
+        // Tampilkan tabel admin
+        function showAdminTable() {
+            const tableBody = document.getElementById('adminTableBody');
+            tableBody.innerHTML = '';
+            
+            dataSiswa.forEach((siswa, index) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td>${siswa.nama}</td>
+                    <td>${siswa.nis}</td>
+                    <td>${siswa.nisn}</td>
+                    <td>${siswa.kelas}</td>
+                    <td>${siswa.jurusan}</td>
+                    <td>${siswa.keterangan}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+            
+            document.getElementById('adminSection').style.display = 'block';
+            document.getElementById('adminTable').style.display = 'table';
+            document.querySelector('.cek-kelulusan').style.display = 'none';
+        }
+        
+        // Tombol Kembali
+        document.getElementById('backBtn').addEventListener('click', function() {
+            document.getElementById('hasilKelulusan').style.display = 'none';
+            document.querySelector('.cek-kelulusan').style.display = 'block';
+            document.getElementById('nisn').value = '';
+        });
+        
+        document.getElementById('adminBackBtn').addEventListener('click', function() {
+            document.getElementById('adminSection').style.display = 'none';
+            document.querySelector('.cek-kelulusan').style.display = 'block';
+            document.getElementById('nisn').value = '';
+        });
+        
+        document.getElementById('closePopup').addEventListener('click', function() {
+            document.getElementById('popup').style.display = 'none';
+        });
+        
+        // Efek Kembang Api
+        function createFireworks(count) {
+            for (let i = 0; i < count; i++) {
+                setTimeout(() => {
+                    const firework = document.createElement('div');
+                    firework.className = 'firework';
+                    
+                    // Posisi acak di layar
+                    firework.style.left = `${Math.random() * 100}%`;
+                    firework.style.top = `${Math.random() * 100}%`;
+                    
+                    // Warna acak
+                    const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+                    firework.style.boxShadow = `0 0 10px 5px ${colors[Math.floor(Math.random() * colors.length)]}`;
+                    
+                    document.body.appendChild(firework);
+                    
+                    // Hapus setelah animasi selesai
+                    setTimeout(() => {
+                        firework.remove();
+                    }, 1000);
+                }, i * 200);
+            }
+        }
+        
+        // Blokir Inspect Element dan shortcut keyboard
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            alert('ANDA MAU NGAPAIN GUYS, JANGAN BURU BURU LAH. PELAN PELAN SAJA LOH. SANTAIIII.');
+        });
+        
+        document.addEventListener('keydown', function(e) {
+            // Blokir Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C, Ctrl+U
+            if (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74 || e.keyCode === 67)) {
+                e.preventDefault();
+                alert('ANDA MAU NGAPAIN GUYS, JANGAN BURU BURU LAH. PELAN PELAN SAJA LOH. SANTAIIII.');
+            }
+            
+            if (e.ctrlKey && e.keyCode === 85) {
+                e.preventDefault();
+                alert('ANDA MAU NGAPAIN GUYS, JANGAN BURU BURU LAH. PELAN PELAN SAJA LOH. SANTAIIII.');
+            }
+        });
+    </script>
+</body>
+</html>
